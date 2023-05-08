@@ -1,32 +1,25 @@
-title: "Kathryn Schuler"
-author: "Kathryn Schuler"
-description: "University of Pennsylvania"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+title:              Clean Blog
+email:              your-email@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://startbootstrap.github.io"
 
-# Layout
-show_social: true # show footer
-show_excerpts: true # show article excerpts on the home page
-show_frame: false # adds a gray frame to the site
-show_sidebar: false # show a sidebar instead of the usual header
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    StartBootstrap
+facebook_username:  StartBootstrap
+instagram_username:  
+linkedin_username:
 
-# Menu
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-navigation: # accepts {file, title, url, icon, sidebaricon}
-  - { file: "index.md" }
-  - { url: "/katie.pdf", title: CV }
-  - { url: "http://childlanglab.com", title: Lab }
-  - { file: "blog.md" }
-
-external: # shows a footer with social links - for available icons see fontawesome.com/icons
-  - { title: Mail, icon: envelope, url: "mailto:kathryn.schuler@gmail.com" }
-  - { title: Github, icon: github, url: "https://github.com/kschuler" }
-  - { title: Twitter, icon: twitter, url: "https://twitter.com/KathrynSchuler" }
-
-remote_theme: niklasbuschmann/contrast@v2.11
-
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
