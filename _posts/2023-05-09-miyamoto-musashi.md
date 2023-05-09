@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![Miyamoto Musashi]()
+![Miyamoto Musashi](/assets/images/miyamoto.jpg)
 
 ## MathJax
 
