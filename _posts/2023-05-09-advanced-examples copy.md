@@ -1,5 +1,5 @@
 ---
-title:  "10 Filosofi Miyamoto"
+title:  "Miyamoto Musa"
 mathjax: true
 layout: post
 categories: media
