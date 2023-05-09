@@ -1,5 +1,5 @@
 ---
-title:  "Markdown examples"
+title:  "Guide : Markdown examples"
 layout: post
 ---
 
