@@ -24,6 +24,8 @@ external: # shows a footer with social links - for available icons see fontaweso
   - { title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com" }
   - { title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast" }
   - { title: Subscribe, icon: rss, url: "/feed.xml" }
+  - { title: Follow, icon: instagram, url: "/feed.xml" }
+  - { title: Discord, icon: discord, url: "/feed.xml" }
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
